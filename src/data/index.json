@@ -29,23 +29,34 @@
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Guess Number Game App",
+      "description": "I am excited to present my Guess the Number game, which can be accessed at Guess the Number. This project is a simple yet engaging number guessing game built with HTML, CSS, and JavaScript. It demonstrates my ability to create interactive web applications, handle user input, and implement game logic effectively. The game includes features such as score tracking and highscore maintenance, showcasing my skills in front-end development and dynamic UI updates.",
+      "link": "https://github.com/Mzammilishtiaq/guess-number",
+      "show":"https://mzammilishtiaq.github.io/guess-number/"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Ludo Game App",
+      "description": "I am pleased to share my Ludo Game project, available at Ludo Game. This project is an implementation of the classic board game Ludo using HTML, CSS, and JavaScript. It showcases my ability to develop interactive web applications, manage game state, and provide a seamless user experience. The game includes features like rolling dice, player turns, and winning conditions, demonstrating my proficiency in front-end development and JavaScript logic.",
+      "link": "https://github.com/Mzammilishtiaq/ludo-game",
+      "show":"https://mzammilishtiaq.github.io/ludo-game/"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Weather App",
+      "description": "I am excited to share my Weather App project, hosted on GitHub at Weather App GitHub. This project showcases my skills in web development using HTML, CSS, and JavaScript. The app fetches real-time weather data from an API, providing users with current weather conditions and forecasts for any location. It demonstrates my ability to integrate APIs, handle asynchronous data, and create user-friendly interfaces.",
+      "link": "https://github.com/Mzammilishtiaq/weather-app",
+      "show":"https://mzammilishtiaq.github.io/weather-app/"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-3.png",
+      "title": "Netflix App",
+      "description": "I am excited to present my project, the Netflix React App, a dynamic and interactive web application built using React.js, designed to replicate the Netflix user interface and experience. The application features a clean and responsive design, user authentication, and real-time data fetching from a movie API to display the latest trending movies and TV shows.",
+      "link": "https://github.com/Mzammilishtiaq/netflix-app",
+      "show":"https://netflix-react-app.netlify.app/"
     }
   ],
   "testimonial": [

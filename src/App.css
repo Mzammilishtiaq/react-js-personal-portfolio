@@ -339,13 +339,13 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21.3px;
+  gap: 15px;
 }
 .portfolio--section--container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 42.6px;
+  gap: 30px;
   width: 100%;
 }
 .portfolio--section--img {
@@ -369,7 +369,7 @@ h2 {
 }
 .portfolio--section--card--content {
   display: flex;
-  padding: 32px;
+  padding: 15px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;

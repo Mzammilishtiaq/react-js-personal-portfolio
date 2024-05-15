@@ -5,9 +5,10 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
+      <div style={{ display: "flex", alignItems: "center", gap: '12px' }}>
+        <img src="./logo.png" alt="Logoimg" />
+        <span style={{ fontSize: '25px', fontWeight: 'bold', fontFamily:"Roboto" }}>Muzammil</span>
+      </div>
         <div className="footer--items">
           <ul>
             <li>
@@ -172,7 +173,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Muzammil</p>
         <div className="footer--social--icon">
           <ul>
             <li>

@@ -1,9 +1,11 @@
+import { Link } from "react-scroll";
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm John</p>
+          <p className="section--title">Hey, I'm Muhammad Muzammil Ishtiaq</p>
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">Full Stack</span>{" "}
             <br />
@@ -14,7 +16,7 @@ export default function HeroSection() {
             <br /> Dolorum, quas. Amet soluta assumenda cum?
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+      <Link to="Contact"><button className="btn btn-primary">Get In Touch</button></Link>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.png" alt="Hero Section" />

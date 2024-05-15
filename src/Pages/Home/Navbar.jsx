@@ -34,8 +34,9 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+      <div style={{ display: "flex", alignItems: "center", gap: '12px' }}>
+        <img src="./logo.png" alt="Logoimg" />
+        <span style={{ fontSize: '25px', fontWeight: 'bold', fontFamily:"Roboto" }}>Muzammil</span>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
