@@ -1,4 +1,31 @@
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+
+
 export default function ContactMe() {
+  const form = useRef();
+const [done, setDone] = useState(false)
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
+      "service_ybfqwwq",
+      "template_b7jgeff",
+      form.current,
+      "55-ey1sEY-QhR3CmC"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+        setDone(true);
+        // form.reset();
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+};
   return (
     <section id="Contact" className="contact--section">
       <div>
@@ -8,7 +35,7 @@ export default function ContactMe() {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
         </p>
       </div>
-      <form className="contact--form--container">
+      <form ref={form} onSubmit={sendEmail} className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -51,7 +78,7 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
+        {/* <label htmlFor="choode-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
@@ -59,7 +86,7 @@ export default function ContactMe() {
             <option>Item 2</option>
             <option>Item 3</option>
           </select>
-        </label>
+        </label> */}
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
@@ -67,6 +94,7 @@ export default function ContactMe() {
             id="message"
             rows="8"
             placeholder="Type your message..."
+            name="message"
           />
         </label>
         <label htmlFor="checkboc" className="checkbox--label">
@@ -75,6 +103,7 @@ export default function ContactMe() {
         </label>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
+          <span>{done && "Thanks for Contacting me"}</span>
         </div>
       </form>
     </section>
