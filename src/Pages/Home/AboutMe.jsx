@@ -9,16 +9,13 @@ export default function AboutMe() {
           <p className="section--title">About</p>
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+          HTML5, CSS3, and JavaScript: Proficient in the core technologies of front-end development, ensuring that every site I create is not only visually appealing but also functional and accessible.
           </p>
-          <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
-          </p>
+          <p className="hero--section-description">Frameworks and Libraries: Skilled in using modern frameworks and libraries such as React, Angular, and Vue.js to build dynamic and interactive web applications.</p>
+          <p className="hero--section-description">Responsive Design: Adept at creating websites that look great and perform well on all devices, from desktops to smartphones, using techniques like mobile-first design and CSS media queries.</p>
+          <p className="hero--section-description">Version Control: Experienced with Git and GitHub for version control, ensuring efficient and collaborative development workflows.</p>
+          <p className="hero--section-description">Cross-Browser Compatibility: Committed to delivering a consistent user experience across all major browsers, including Chrome, Firefox, Safari, and Edge.</p>
+          <p className="hero--section-description"></p>
         </div>
       </div>
     </section>

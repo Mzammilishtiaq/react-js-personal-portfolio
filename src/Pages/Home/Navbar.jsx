@@ -33,7 +33,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
+    <nav className={`navbars ${navActive ? "active" : ""}`}>
       <div style={{ display: "flex", alignItems: "center", gap: '12px' }}>
         <img src="./logo.png" alt="Logoimg" />
         <span style={{ fontSize: '25px', fontWeight: 'bold', fontFamily:"Roboto" }}>Muzammil</span>

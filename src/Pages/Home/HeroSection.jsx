@@ -7,13 +7,12 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Muhammad Muzammil Ishtiaq</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <span className="hero--section-title--color">Front End</span>{" "}
             <br />
             Developer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+          with a knack for creating stunning, responsive, and user-friendly websites. With 2 years of experience in web development, I specialize in crafting clean and efficient code that brings designs to life.
           </p>
         </div>
       <Link to="Contact"><button className="btn btn-primary">Get In Touch</button></Link>

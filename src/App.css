@@ -25,7 +25,7 @@ p {
   --black: #000000;
   --white: #ffffff;
 }
-.btn {
+.btnn {
   font-family: "Roboto";
   display: inline-block;
   padding: 14px 32px;
@@ -114,10 +114,10 @@ h2 {
 /* Body 2 */
 .text-md {
   color: var(--darkblue);
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
 }
 /* Body 3 */
 .text-sm {
@@ -150,7 +150,7 @@ h2 {
 /* Section Titles Ends */
 
 /* Navbar Style Start */
-.navbar {
+.navbars {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -223,9 +223,9 @@ h2 {
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 36px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
 }
 .hero--section--img {
   display: flex;
@@ -303,7 +303,7 @@ h2 {
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 3px;
 }
 /* Skills Style Ends */
 
@@ -359,7 +359,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 10px;
   flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
@@ -377,11 +377,13 @@ h2 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  font-size: 20px;
+  font-weight: bold;
 }
 .portfolio--link {
   text-decoration: none;
   display: flex;
-  gap: 16px;
+  gap: 12px;
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
@@ -581,18 +583,18 @@ input[type="checkbox"] {
     gap: 16px;
   }
   .skills--section--card {
-    gap: 28px;
-  }
-  .skills--section--card--content {
     gap: 20px;
   }
+  .skills--section--card--content {
+    gap: 5px;
+  }
   .skills--section--title {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 30px;
   }
   .skills--section--description {
-    font-size: 17.333px;
-    line-height: 27px;
+    font-size: 12px;
+    line-height: 30px;
   }
 }
 

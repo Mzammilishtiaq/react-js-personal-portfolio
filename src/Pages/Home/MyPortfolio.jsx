@@ -10,7 +10,7 @@ export default function MyPortfolio() {
         </div>
         <div>
           <a href="https://github.com/Mzammilishtiaq" target="_blank" style={{textDecoration:"none"}}>
-          <button className="btn btn-github">
+          <button className="btnn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -30,9 +30,9 @@ export default function MyPortfolio() {
           </a>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div className="portfolio--section--container row ">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div key={index} className="portfolio--section--card col-3">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>

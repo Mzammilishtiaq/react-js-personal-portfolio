@@ -4,25 +4,25 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "As a front-end developer, you typically work with a combination of HTML, CSS, and JavaScript to create the user-facing part of websites and web applications. Here's an overview of the frameworks and libraries use"
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "As a back-end developer, you are responsible for the server-side logic of web applications, managing databases, and ensuring the application's performance, security, and responsiveness. Here are some of the key technologies and tools commonly used in back-end development"
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "UI (User Interface) and UX (User Experience) design are critical aspects of creating engaging, user-friendly web and mobile applications. Here's an overview of tools and methodologies commonly used in UI and UX design"
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Webflow is a popular web design and development tool that enables designers to build responsive websites visually without needing extensive coding skills. It combines the capabilities of a design tool and a CMS (Content Management System), providing a powerful platform for creating and managing websites"
     }
   ],
   "portfolio": [
@@ -57,6 +57,22 @@
       "description": "I am excited to present my project, the Netflix React App, a dynamic and interactive web application built using React.js, designed to replicate the Netflix user interface and experience. The application features a clean and responsive design, user authentication, and real-time data fetching from a movie API to display the latest trending movies and TV shows.",
       "link": "https://github.com/Mzammilishtiaq/netflix-app",
       "show":"https://netflix-react-app.netlify.app/"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-4.png",
+      "title": "IMDB CLONE App ANGULAR",
+      "description": "The Blue Movie Angular website is an Angular-based application that provides information about movies. It features a modern, user-friendly interface that includes a home page with popular or trending movies, individual movie detail pages with comprehensive information, and a search functionality to find specific movies. The site likely integrates with a movie database API to dynamically fetch and display data.",
+      "link": "https://github.com/Mzammilishtiaq/IMDB-clone-angular-app",
+      "show":"https://blue-movie-angular.netlify.app/"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-5.png",
+      "title": "IMDB CLONE App REACT",
+      "description": "The website Blue Movie React appears to be a movie information site built with ReactJS. It likely features components such as a home page displaying popular or recent movies, individual movie detail pages, and a search function. The site utilizes a modern, responsive design and likely integrates with a movie database API to fetch and display movie data dynamically. For a detailed look, you can visit the site directly.",
+      "link": "https://github.com/Mzammilishtiaq/IMDB-clone-ReactApp",
+      "show":"https://blue-movie-react.netlify.app/"
     }
   ],
   "testimonial": [
